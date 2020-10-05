@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Learn it</string>
+    <string name="snapchat_client_id">b6821bdf-ee89-44f2-a9b1-aa19d72cddcd</string>
+    <string name="connect_with_snapchat"><font color="#000000">Connect with <b>Snapchat</b></font></string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password"><i>Forgot Password?</i></string>
+    <string name="or">OR</string>
+    <string name="username">Username</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login_link_text">Already have an account? Login</string>
+    <string name="register_link_text">Don\'t have an account? Register</string>
+    <string name="join_us">Join Us</string>
+    <string name="signup_with_snapchat"><font color="#000000">Sign up with <b>Snapchat</b></font></string>
+    <string name="confrim_password">Confirm Password</string>
+    <string name="phone">Phone No</string>
+    <string name="profile_update">Update Profile</string>
+    <string name="name">Full Name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="snap_connect_scopes">
+        <item>https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar</item>
+        <item>https://auth.snapchat.com/oauth2/api/user.display_name</item>
+        <item>https://auth.snapchat.com/oauth2/api/user.external_id</item>
+    </string-array>
+</resources>
