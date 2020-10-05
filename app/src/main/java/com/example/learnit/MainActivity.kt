@@ -1,9 +1,11 @@
 package com.example.learnit
 
 import android.content.Intent
+import android.content.res.Configuration
 import android.graphics.PorterDuff
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import com.example.learnit.databinding.ActivityMainBinding
 import com.example.learnit.signin.LoginActivity
 import com.google.android.material.tabs.TabLayout
@@ -47,6 +49,9 @@ class MainActivity : AppCompatActivity() {
             override fun onTabReselected(tab: TabLayout.Tab?) {
             }
         })
+        mainBinding.darkToggler.setOnClickListener{
+            darkModeToggler()
+        }
     }
     val authStateListener = FirebaseAuth.AuthStateListener {
         firebaseAuth ->
@@ -57,6 +62,26 @@ class MainActivity : AppCompatActivity() {
             finish()
         }else if(firebaseUser != null){
             val name = firebaseUser.email
+        }
+    }
+    fun darkModeToggler(){
+        val isNightTheme = resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK
+        when (isNightTheme) {
+            Configuration.UI_MODE_NIGHT_YES -> {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+                finish()
+                overridePendingTransition(0, 0)
+                startActivity(intent)
+                overridePendingTransition(0, 0)
+            }
+            Configuration.UI_MODE_NIGHT_NO -> {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+                finish()
+                overridePendingTransition(0, 0)
+                startActivity(intent)
+                overridePendingTransition(0, 0)
+            }
+
         }
     }
 

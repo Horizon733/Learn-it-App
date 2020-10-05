@@ -8,6 +8,7 @@ import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
 import com.example.learnit.MainActivity
+import com.example.learnit.PasswordResetFragment
 import com.example.learnit.R
 import com.example.learnit.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -31,6 +32,9 @@ class LoginActivity : AppCompatActivity() {
         }
         binding.signInBtn.setOnClickListener {
             authUser()
+        }
+        binding.forgotPassword.setOnClickListener {
+            forgotPassword()
         }
 
     }
@@ -56,6 +60,10 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
         }
+    }
+    fun forgotPassword(){
+        val passwordResetFragment = PasswordResetFragment()
+        supportFragmentManager.beginTransaction().add(passwordResetFragment,"Password Reset").commit()
     }
     fun darkModeToggler(){
         val isNightTheme = resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK

@@ -11,6 +11,6 @@ class QuizViewActivity : AppCompatActivity() {
         setContentView(R.layout.activity_quiz_view)
         quizViewBinding = ActivityQuizViewBinding.inflate(layoutInflater)
         val intentData = intent.extras?.get("forms").toString()
-        quizViewBinding.webview.loadUrl("https://forms.gle/WxNrh9jWpDkNcQ5g9")
+        quizViewBinding.webview.loadUrl(intentData)
     }
 }
