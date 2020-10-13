@@ -1,9 +1,9 @@
 ## Learn it
 
-
+![Learn It Mock](https://github.com/Horizon733/Learn-it-App/blob/master/screenshots/Learn_it_mock.png)
 
 ### Hello, Flocks 👋
-### This Project was part of VSnapkit Developer Challenge 2020 on DevPost
+### This Project was part of Snapkit Developer Challenge 2020 on DevPost
 
 ![Issues](https://img.shields.io/github/issues/horizon733/covid-smart?style=for-the-badge)
 
@@ -36,3 +36,4 @@ Sounds Awesome Right!This is the feature of Learn it. Quiz can be conducted to c
 * Dishant
 <br> [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dishant-gandhi/)
 [![instagram](https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_dishant_733/)
+
