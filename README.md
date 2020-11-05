@@ -1,9 +1,8 @@
-## Learn it
+## Learn it - Winner of Snapkit's Developer Challenge 2020 on DevPost
 
 ![Learn It Mock](https://github.com/Horizon733/Learn-it-App/blob/master/screenshots/Learn_it_mock.png)
 
 ### Hello, Flocks 👋
-### This Project was part of Snapkit Developer Challenge 2020 on DevPost
 
 ![Issues](https://img.shields.io/github/issues/horizon733/covid-smart?style=for-the-badge)
 
