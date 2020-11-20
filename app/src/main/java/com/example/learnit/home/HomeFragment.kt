@@ -30,37 +30,37 @@ class HomeFragment : Fragment() {
                ,R.drawable.ic_earth
                ,R.drawable.ic_comet
                ,R.drawable.ic_telescope
-               ,"52287450875")
+               ,"Your-lens-id")
             ,Data("Sun"
             ,R.drawable.ic_earth
             ,R.drawable.ic_comet
             ,R.drawable.ic_telescope
-            ,"52287450875")
+            ,"Your-lens-id")
             ,Data("Geography"
                 ,R.drawable.ic_compass
                 ,R.drawable.ic_big_compass
                 ,R.drawable.ic_globe
-                ,"52287450875")
+                ,"Your-lens-id")
             ,Data("Chemical"
                 ,R.drawable.ic_chemical_bonds
                 ,R.drawable.ic_flask
                 ,R.drawable.ic_test_tubes
-                ,"52287450875")
+                ,"Your-lens-id")
             ,Data("Mars"
                 ,R.drawable.ic_earth
                 ,R.drawable.ic_comet
                 ,R.drawable.ic_telescope
-                ,"52287450875")
+                ,"Your-lens-id")
             ,Data("Venus"
                 ,R.drawable.ic_compass
                 ,R.drawable.ic_comet
                 ,R.drawable.ic_telescope
-                ,"52287450875")
+                ,"Your-lens-id")
             ,Data("Venus"
                 ,R.drawable.ic_compass
                 ,R.drawable.ic_comet
                 ,R.drawable.ic_telescope
-                ,"52287450875")
+                ,"Your-lens-id")
         )
         val subjectListAdapter = context?.let { SubjectListAdapter(it,list) }
         fragmentHomeBinding.subjectList.adapter = subjectListAdapter
